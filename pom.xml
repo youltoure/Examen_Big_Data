@@ -12,26 +12,5 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    <plugin>
-        <groupId>org.scala-tools</groupId>
-        <artifactId>maven-scala-plugin</artifactId>
-        <version>2.15.3</version>
-        <executions>
-            <execution>
-                <goals>
-                    <goal>compile</goal>
-                    <goal>testCompile</goal>
-                </goals>
-            </execution>
-        </executions>
-        <configuration>
-            <scalaVersion>2.11.8</scalaVersion>
-        </configuration>
-    </plugin>
-<dependency>
-    <groupId>org.scala-lang</groupId>
-    <artifactId>scala-library</artifactId>
-    <version>2.11.8</version>
-</dependency>
 
 </project>
